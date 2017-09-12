@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F03FDABA1F677FB700CD2EC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F03FDAB91F677FB700CD2EC2 /* main.m */; };
+		F03FDABD1F677FB700CD2EC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F03FDABC1F677FB700CD2EC2 /* AppDelegate.m */; };
+		F03FDAC01F677FB700CD2EC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F03FDABF1F677FB700CD2EC2 /* ViewController.m */; };
+		F03FDAC31F677FB700CD2EC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F03FDAC11F677FB700CD2EC2 /* Main.storyboard */; };
+		F03FDAC51F677FB700CD2EC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F03FDAC41F677FB700CD2EC2 /* Assets.xcassets */; };
+		F03FDAC81F677FB800CD2EC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F03FDAC61F677FB800CD2EC2 /* LaunchScreen.storyboard */; };
+		F03FDAD61F67800C00CD2EC2 /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F03FDAD51F67800C00CD2EC2 /* ReplayKit.framework */; };
+		F03FDADD1F67800C00CD2EC2 /* SampleHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F03FDADC1F67800C00CD2EC2 /* SampleHandler.m */; };
+		F03FDAE41F67800C00CD2EC2 /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F03FDAD51F67800C00CD2EC2 /* ReplayKit.framework */; };
+		F03FDAE61F67800C00CD2EC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F03FDAE51F67800C00CD2EC2 /* UIKit.framework */; };
+		F03FDAEA1F67800C00CD2EC2 /* BroadcastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F03FDAE91F67800C00CD2EC2 /* BroadcastViewController.m */; };
+		F03FDAED1F67800C00CD2EC2 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F03FDAEB1F67800C00CD2EC2 /* MainInterface.storyboard */; };
+		F03FDAF11F67800C00CD2EC2 /* streamingexUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F03FDAE31F67800C00CD2EC2 /* streamingexUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F03FDAF41F67800C00CD2EC2 /* streamingex.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F03FDAD31F67800C00CD2EC2 /* streamingex.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F03FDAEF1F67800C00CD2EC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F03FDAAD1F677FB700CD2EC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F03FDAE21F67800C00CD2EC2;
+			remoteInfo = streamingexUI;
+		};
+		F03FDAF21F67800C00CD2EC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F03FDAAD1F677FB700CD2EC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F03FDAD21F67800C00CD2EC2;
+			remoteInfo = streamingex;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F03FDAFB1F67800D00CD2EC2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F03FDAF41F67800C00CD2EC2 /* streamingex.appex in Embed App Extensions */,
+				F03FDAF11F67800C00CD2EC2 /* streamingexUI.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F03FDAB51F677FB700CD2EC2 /* streaming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = streaming.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F03FDAB91F677FB700CD2EC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F03FDABB1F677FB700CD2EC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F03FDABC1F677FB700CD2EC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F03FDABE1F677FB700CD2EC2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F03FDABF1F677FB700CD2EC2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F03FDAC21F677FB700CD2EC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F03FDAC41F677FB700CD2EC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F03FDAC71F677FB800CD2EC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F03FDAC91F677FB800CD2EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F03FDAD31F67800C00CD2EC2 /* streamingex.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = streamingex.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F03FDAD51F67800C00CD2EC2 /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = System/Library/Frameworks/ReplayKit.framework; sourceTree = SDKROOT; };
+		F03FDADB1F67800C00CD2EC2 /* SampleHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleHandler.h; sourceTree = "<group>"; };
+		F03FDADC1F67800C00CD2EC2 /* SampleHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleHandler.m; sourceTree = "<group>"; };
+		F03FDADE1F67800C00CD2EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F03FDAE31F67800C00CD2EC2 /* streamingexUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = streamingexUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F03FDAE51F67800C00CD2EC2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F03FDAE81F67800C00CD2EC2 /* BroadcastViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BroadcastViewController.h; sourceTree = "<group>"; };
+		F03FDAE91F67800C00CD2EC2 /* BroadcastViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BroadcastViewController.m; sourceTree = "<group>"; };
+		F03FDAEC1F67800C00CD2EC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		F03FDAEE1F67800C00CD2EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F03FDAB21F677FB700CD2EC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F03FDAD01F67800C00CD2EC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F03FDAD61F67800C00CD2EC2 /* ReplayKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F03FDAE01F67800C00CD2EC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F03FDAE41F67800C00CD2EC2 /* ReplayKit.framework in Frameworks */,
+				F03FDAE61F67800C00CD2EC2 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F03FDAAC1F677FB700CD2EC2 = {
+			isa = PBXGroup;
+			children = (
+				F03FDAB71F677FB700CD2EC2 /* streaming */,
+				F03FDAD71F67800C00CD2EC2 /* streamingex */,
+				F03FDAE71F67800C00CD2EC2 /* streamingexUI */,
+				F03FDAD41F67800C00CD2EC2 /* Frameworks */,
+				F03FDAB61F677FB700CD2EC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F03FDAB61F677FB700CD2EC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F03FDAB51F677FB700CD2EC2 /* streaming.app */,
+				F03FDAD31F67800C00CD2EC2 /* streamingex.appex */,
+				F03FDAE31F67800C00CD2EC2 /* streamingexUI.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F03FDAB71F677FB700CD2EC2 /* streaming */ = {
+			isa = PBXGroup;
+			children = (
+				F03FDABB1F677FB700CD2EC2 /* AppDelegate.h */,
+				F03FDABC1F677FB700CD2EC2 /* AppDelegate.m */,
+				F03FDABE1F677FB700CD2EC2 /* ViewController.h */,
+				F03FDABF1F677FB700CD2EC2 /* ViewController.m */,
+				F03FDAC11F677FB700CD2EC2 /* Main.storyboard */,
+				F03FDAC41F677FB700CD2EC2 /* Assets.xcassets */,
+				F03FDAC61F677FB800CD2EC2 /* LaunchScreen.storyboard */,
+				F03FDAC91F677FB800CD2EC2 /* Info.plist */,
+				F03FDAB81F677FB700CD2EC2 /* Supporting Files */,
+			);
+			path = streaming;
+			sourceTree = "<group>";
+		};
+		F03FDAB81F677FB700CD2EC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F03FDAB91F677FB700CD2EC2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F03FDAD41F67800C00CD2EC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F03FDAD51F67800C00CD2EC2 /* ReplayKit.framework */,
+				F03FDAE51F67800C00CD2EC2 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F03FDAD71F67800C00CD2EC2 /* streamingex */ = {
+			isa = PBXGroup;
+			children = (
+				F03FDADB1F67800C00CD2EC2 /* SampleHandler.h */,
+				F03FDADC1F67800C00CD2EC2 /* SampleHandler.m */,
+				F03FDADE1F67800C00CD2EC2 /* Info.plist */,
+			);
+			path = streamingex;
+			sourceTree = "<group>";
+		};
+		F03FDAE71F67800C00CD2EC2 /* streamingexUI */ = {
+			isa = PBXGroup;
+			children = (
+				F03FDAE81F67800C00CD2EC2 /* BroadcastViewController.h */,
+				F03FDAE91F67800C00CD2EC2 /* BroadcastViewController.m */,
+				F03FDAEB1F67800C00CD2EC2 /* MainInterface.storyboard */,
+				F03FDAEE1F67800C00CD2EC2 /* Info.plist */,
+			);
+			path = streamingexUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F03FDAB41F677FB700CD2EC2 /* streaming */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F03FDACC1F677FB800CD2EC2 /* Build configuration list for PBXNativeTarget "streaming" */;
+			buildPhases = (
+				F03FDAB11F677FB700CD2EC2 /* Sources */,
+				F03FDAB21F677FB700CD2EC2 /* Frameworks */,
+				F03FDAB31F677FB700CD2EC2 /* Resources */,
+				F03FDAFB1F67800D00CD2EC2 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F03FDAF01F67800C00CD2EC2 /* PBXTargetDependency */,
+				F03FDAF31F67800C00CD2EC2 /* PBXTargetDependency */,
+			);
+			name = streaming;
+			productName = streaming;
+			productReference = F03FDAB51F677FB700CD2EC2 /* streaming.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F03FDAD21F67800C00CD2EC2 /* streamingex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F03FDAF81F67800D00CD2EC2 /* Build configuration list for PBXNativeTarget "streamingex" */;
+			buildPhases = (
+				F03FDACF1F67800C00CD2EC2 /* Sources */,
+				F03FDAD01F67800C00CD2EC2 /* Frameworks */,
+				F03FDAD11F67800C00CD2EC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = streamingex;
+			productName = streamingex;
+			productReference = F03FDAD31F67800C00CD2EC2 /* streamingex.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		F03FDAE21F67800C00CD2EC2 /* streamingexUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F03FDAF51F67800D00CD2EC2 /* Build configuration list for PBXNativeTarget "streamingexUI" */;
+			buildPhases = (
+				F03FDADF1F67800C00CD2EC2 /* Sources */,
+				F03FDAE01F67800C00CD2EC2 /* Frameworks */,
+				F03FDAE11F67800C00CD2EC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = streamingexUI;
+			productName = streamingexUI;
+			productReference = F03FDAE31F67800C00CD2EC2 /* streamingexUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F03FDAAD1F677FB700CD2EC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = dotEngine;
+				TargetAttributes = {
+					F03FDAB41F677FB700CD2EC2 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = CLKRLU8RPY;
+						ProvisioningStyle = Automatic;
+					};
+					F03FDAD21F67800C00CD2EC2 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = CLKRLU8RPY;
+						ProvisioningStyle = Automatic;
+					};
+					F03FDAE21F67800C00CD2EC2 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = CLKRLU8RPY;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F03FDAB01F677FB700CD2EC2 /* Build configuration list for PBXProject "streaming" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F03FDAAC1F677FB700CD2EC2;
+			productRefGroup = F03FDAB61F677FB700CD2EC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F03FDAB41F677FB700CD2EC2 /* streaming */,
+				F03FDAD21F67800C00CD2EC2 /* streamingex */,
+				F03FDAE21F67800C00CD2EC2 /* streamingexUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F03FDAB31F677FB700CD2EC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F03FDAC81F677FB800CD2EC2 /* LaunchScreen.storyboard in Resources */,
+				F03FDAC51F677FB700CD2EC2 /* Assets.xcassets in Resources */,
+				F03FDAC31F677FB700CD2EC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F03FDAD11F67800C00CD2EC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F03FDAE11F67800C00CD2EC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F03FDAED1F67800C00CD2EC2 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F03FDAB11F677FB700CD2EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F03FDAC01F677FB700CD2EC2 /* ViewController.m in Sources */,
+				F03FDABD1F677FB700CD2EC2 /* AppDelegate.m in Sources */,
+				F03FDABA1F677FB700CD2EC2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F03FDACF1F67800C00CD2EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F03FDADD1F67800C00CD2EC2 /* SampleHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F03FDADF1F67800C00CD2EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F03FDAEA1F67800C00CD2EC2 /* BroadcastViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F03FDAF01F67800C00CD2EC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F03FDAE21F67800C00CD2EC2 /* streamingexUI */;
+			targetProxy = F03FDAEF1F67800C00CD2EC2 /* PBXContainerItemProxy */;
+		};
+		F03FDAF31F67800C00CD2EC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F03FDAD21F67800C00CD2EC2 /* streamingex */;
+			targetProxy = F03FDAF21F67800C00CD2EC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F03FDAC11F677FB700CD2EC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F03FDAC21F677FB700CD2EC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F03FDAC61F677FB800CD2EC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F03FDAC71F677FB800CD2EC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F03FDAEB1F67800C00CD2EC2 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F03FDAEC1F67800C00CD2EC2 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F03FDACA1F677FB800CD2EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F03FDACB1F677FB800CD2EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F03FDACD1F677FB800CD2EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CLKRLU8RPY;
+				INFOPLIST_FILE = streaming/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.dot.streaming;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F03FDACE1F677FB800CD2EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CLKRLU8RPY;
+				INFOPLIST_FILE = streaming/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.dot.streaming;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F03FDAF61F67800D00CD2EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CLKRLU8RPY;
+				INFOPLIST_FILE = streamingexUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.dot.streaming.streamingexUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F03FDAF71F67800D00CD2EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CLKRLU8RPY;
+				INFOPLIST_FILE = streamingexUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.dot.streaming.streamingexUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F03FDAF91F67800D00CD2EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CLKRLU8RPY;
+				INFOPLIST_FILE = streamingex/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.dot.streaming.streamingex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F03FDAFA1F67800D00CD2EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CLKRLU8RPY;
+				INFOPLIST_FILE = streamingex/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cc.dot.streaming.streamingex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F03FDAB01F677FB700CD2EC2 /* Build configuration list for PBXProject "streaming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F03FDACA1F677FB800CD2EC2 /* Debug */,
+				F03FDACB1F677FB800CD2EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F03FDACC1F677FB800CD2EC2 /* Build configuration list for PBXNativeTarget "streaming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F03FDACD1F677FB800CD2EC2 /* Debug */,
+				F03FDACE1F677FB800CD2EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F03FDAF51F67800D00CD2EC2 /* Build configuration list for PBXNativeTarget "streamingexUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F03FDAF61F67800D00CD2EC2 /* Debug */,
+				F03FDAF71F67800D00CD2EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F03FDAF81F67800D00CD2EC2 /* Build configuration list for PBXNativeTarget "streamingex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F03FDAF91F67800D00CD2EC2 /* Debug */,
+				F03FDAFA1F67800D00CD2EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F03FDAAD1F677FB700CD2EC2 /* Project object */;
+}
