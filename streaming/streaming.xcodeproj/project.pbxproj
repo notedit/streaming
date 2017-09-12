@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63680FAFCFC0A3143A93FC1C /* libPods-streamingexUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB68970941ACC2858B171D4B /* libPods-streamingexUI.a */; };
+		DB0CAAFA0C9E04501B9E337B /* libPods-streaming.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8CC4213B65E9B9178B5772 /* libPods-streaming.a */; };
 		F03FDABA1F677FB700CD2EC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F03FDAB91F677FB700CD2EC2 /* main.m */; };
 		F03FDABD1F677FB700CD2EC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F03FDABC1F677FB700CD2EC2 /* AppDelegate.m */; };
 		F03FDAC01F677FB700CD2EC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F03FDABF1F677FB700CD2EC2 /* ViewController.m */; };
@@ -21,6 +23,10 @@
 		F03FDAED1F67800C00CD2EC2 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F03FDAEB1F67800C00CD2EC2 /* MainInterface.storyboard */; };
 		F03FDAF11F67800C00CD2EC2 /* streamingexUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F03FDAE31F67800C00CD2EC2 /* streamingexUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F03FDAF41F67800C00CD2EC2 /* streamingex.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F03FDAD31F67800C00CD2EC2 /* streamingex.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F03FDAFE1F67C47900CD2EC2 /* libDotEngine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F03FDAFD1F67C47900CD2EC2 /* libDotEngine.a */; };
+		F03FDB001F67C49C00CD2EC2 /* libAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F03FDAFF1F67C49C00CD2EC2 /* libAFNetworking.a */; };
+		F03FDB021F67C4A200CD2EC2 /* libSocketRocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F03FDB011F67C4A200CD2EC2 /* libSocketRocket.a */; };
+		F03FDB041F67C93600CD2EC2 /* libGPUImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F03FDB031F67C93600CD2EC2 /* libGPUImage.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +62,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0660E0362A5D3FDBD70A14E4 /* Pods-streamingex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-streamingex.debug.xcconfig"; path = "Pods/Target Support Files/Pods-streamingex/Pods-streamingex.debug.xcconfig"; sourceTree = "<group>"; };
+		1E8CC4213B65E9B9178B5772 /* libPods-streaming.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-streaming.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82DD3ACE5D8EA2A413E0CE0F /* Pods-streamingexUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-streamingexUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-streamingexUI/Pods-streamingexUI.debug.xcconfig"; sourceTree = "<group>"; };
+		AB68970941ACC2858B171D4B /* libPods-streamingexUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-streamingexUI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E534D0E57B92396189E99C17 /* Pods-streaming.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-streaming.debug.xcconfig"; path = "Pods/Target Support Files/Pods-streaming/Pods-streaming.debug.xcconfig"; sourceTree = "<group>"; };
 		F03FDAB51F677FB700CD2EC2 /* streaming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = streaming.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F03FDAB91F677FB700CD2EC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F03FDABB1F677FB700CD2EC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -77,6 +88,14 @@
 		F03FDAE91F67800C00CD2EC2 /* BroadcastViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BroadcastViewController.m; sourceTree = "<group>"; };
 		F03FDAEC1F67800C00CD2EC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		F03FDAEE1F67800C00CD2EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F03FDAFD1F67C47900CD2EC2 /* libDotEngine.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libDotEngine.a; path = Pods/libdotEngine/libDotEngine.a; sourceTree = "<group>"; };
+		F03FDAFF1F67C49C00CD2EC2 /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFNetworking.a; path = "Pods/../build/Debug-iphoneos/AFNetworking/libAFNetworking.a"; sourceTree = "<group>"; };
+		F03FDB011F67C4A200CD2EC2 /* libSocketRocket.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSocketRocket.a; path = "Pods/../build/Debug-iphoneos/SocketRocket/libSocketRocket.a"; sourceTree = "<group>"; };
+		F03FDB031F67C93600CD2EC2 /* libGPUImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGPUImage.a; path = "Pods/../build/Debug-iphoneos/GPUImage/libGPUImage.a"; sourceTree = "<group>"; };
+		F4A2BC75633E9FFB680654A3 /* Pods-streamingexUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-streamingexUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-streamingexUI/Pods-streamingexUI.release.xcconfig"; sourceTree = "<group>"; };
+		F92D7121010E9E678DBFB2DD /* Pods-streaming.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-streaming.release.xcconfig"; path = "Pods/Target Support Files/Pods-streaming/Pods-streaming.release.xcconfig"; sourceTree = "<group>"; };
+		FC93AC38B1207C466F0726E7 /* Pods-streamingex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-streamingex.release.xcconfig"; path = "Pods/Target Support Files/Pods-streamingex/Pods-streamingex.release.xcconfig"; sourceTree = "<group>"; };
+		FE90DA6F8BF6868D901BF92B /* libPods-streamingex.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-streamingex.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB0CAAFA0C9E04501B9E337B /* libPods-streaming.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +111,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F03FDB041F67C93600CD2EC2 /* libGPUImage.a in Frameworks */,
+				F03FDB021F67C4A200CD2EC2 /* libSocketRocket.a in Frameworks */,
+				F03FDB001F67C49C00CD2EC2 /* libAFNetworking.a in Frameworks */,
+				F03FDAFE1F67C47900CD2EC2 /* libDotEngine.a in Frameworks */,
 				F03FDAD61F67800C00CD2EC2 /* ReplayKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,12 +125,26 @@
 			files = (
 				F03FDAE41F67800C00CD2EC2 /* ReplayKit.framework in Frameworks */,
 				F03FDAE61F67800C00CD2EC2 /* UIKit.framework in Frameworks */,
+				63680FAFCFC0A3143A93FC1C /* libPods-streamingexUI.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		884B93BDA0407111F1D44756 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E534D0E57B92396189E99C17 /* Pods-streaming.debug.xcconfig */,
+				F92D7121010E9E678DBFB2DD /* Pods-streaming.release.xcconfig */,
+				0660E0362A5D3FDBD70A14E4 /* Pods-streamingex.debug.xcconfig */,
+				FC93AC38B1207C466F0726E7 /* Pods-streamingex.release.xcconfig */,
+				82DD3ACE5D8EA2A413E0CE0F /* Pods-streamingexUI.debug.xcconfig */,
+				F4A2BC75633E9FFB680654A3 /* Pods-streamingexUI.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F03FDAAC1F677FB700CD2EC2 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +153,7 @@
 				F03FDAE71F67800C00CD2EC2 /* streamingexUI */,
 				F03FDAD41F67800C00CD2EC2 /* Frameworks */,
 				F03FDAB61F677FB700CD2EC2 /* Products */,
+				884B93BDA0407111F1D44756 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,8 +194,15 @@
 		F03FDAD41F67800C00CD2EC2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F03FDB031F67C93600CD2EC2 /* libGPUImage.a */,
+				F03FDB011F67C4A200CD2EC2 /* libSocketRocket.a */,
+				F03FDAFF1F67C49C00CD2EC2 /* libAFNetworking.a */,
+				F03FDAFD1F67C47900CD2EC2 /* libDotEngine.a */,
 				F03FDAD51F67800C00CD2EC2 /* ReplayKit.framework */,
 				F03FDAE51F67800C00CD2EC2 /* UIKit.framework */,
+				1E8CC4213B65E9B9178B5772 /* libPods-streaming.a */,
+				FE90DA6F8BF6868D901BF92B /* libPods-streamingex.a */,
+				AB68970941ACC2858B171D4B /* libPods-streamingexUI.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -189,10 +235,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F03FDACC1F677FB800CD2EC2 /* Build configuration list for PBXNativeTarget "streaming" */;
 			buildPhases = (
+				CFEA82474B67AE2B94D774F3 /* [CP] Check Pods Manifest.lock */,
 				F03FDAB11F677FB700CD2EC2 /* Sources */,
 				F03FDAB21F677FB700CD2EC2 /* Frameworks */,
 				F03FDAB31F677FB700CD2EC2 /* Resources */,
 				F03FDAFB1F67800D00CD2EC2 /* Embed App Extensions */,
+				558B109B9E670D447ABBBBDC /* [CP] Embed Pods Frameworks */,
+				971102DB57F77FD52C1C9784 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -209,9 +258,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F03FDAF81F67800D00CD2EC2 /* Build configuration list for PBXNativeTarget "streamingex" */;
 			buildPhases = (
+				E3264A9EAF2F3B28D7600DCE /* [CP] Check Pods Manifest.lock */,
 				F03FDACF1F67800C00CD2EC2 /* Sources */,
 				F03FDAD01F67800C00CD2EC2 /* Frameworks */,
 				F03FDAD11F67800C00CD2EC2 /* Resources */,
+				0544DDA59CE533ADAFA65FA9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -226,9 +277,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F03FDAF51F67800D00CD2EC2 /* Build configuration list for PBXNativeTarget "streamingexUI" */;
 			buildPhases = (
+				094D2550CE685A83423D3D3B /* [CP] Check Pods Manifest.lock */,
 				F03FDADF1F67800C00CD2EC2 /* Sources */,
 				F03FDAE01F67800C00CD2EC2 /* Frameworks */,
 				F03FDAE11F67800C00CD2EC2 /* Resources */,
+				5F05270C027A9F14B9E581DA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -312,6 +365,114 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0544DDA59CE533ADAFA65FA9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-streamingex/Pods-streamingex-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		094D2550CE685A83423D3D3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		558B109B9E670D447ABBBBDC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-streaming/Pods-streaming-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F05270C027A9F14B9E581DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-streamingexUI/Pods-streamingexUI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		971102DB57F77FD52C1C9784 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-streaming/Pods-streaming-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFEA82474B67AE2B94D774F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E3264A9EAF2F3B28D7600DCE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F03FDAB11F677FB700CD2EC2 /* Sources */ = {
@@ -475,79 +636,111 @@
 		};
 		F03FDACD1F677FB800CD2EC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E534D0E57B92396189E99C17 /* Pods-streaming.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CLKRLU8RPY;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = streaming/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cc.dot.streaming;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = arm64;
 			};
 			name = Debug;
 		};
 		F03FDACE1F677FB800CD2EC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F92D7121010E9E678DBFB2DD /* Pods-streaming.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CLKRLU8RPY;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = streaming/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cc.dot.streaming;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = arm64;
 			};
 			name = Release;
 		};
 		F03FDAF61F67800D00CD2EC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82DD3ACE5D8EA2A413E0CE0F /* Pods-streamingexUI.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = CLKRLU8RPY;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = streamingexUI/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cc.dot.streaming.streamingexUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = arm64;
 			};
 			name = Debug;
 		};
 		F03FDAF71F67800D00CD2EC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4A2BC75633E9FFB680654A3 /* Pods-streamingexUI.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = CLKRLU8RPY;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = streamingexUI/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cc.dot.streaming.streamingexUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = arm64;
 			};
 			name = Release;
 		};
 		F03FDAF91F67800D00CD2EC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0660E0362A5D3FDBD70A14E4 /* Pods-streamingex.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = CLKRLU8RPY;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = streamingex/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/libdotEngine",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AFNetworking",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SocketRocket",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/GPUImage",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cc.dot.streaming.streamingex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = arm64;
 			};
 			name = Debug;
 		};
 		F03FDAFA1F67800D00CD2EC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC93AC38B1207C466F0726E7 /* Pods-streamingex.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = CLKRLU8RPY;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = streamingex/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/libdotEngine",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AFNetworking",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SocketRocket",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/GPUImage",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cc.dot.streaming.streamingex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = arm64;
 			};
 			name = Release;
 		};
@@ -570,6 +763,7 @@
 				F03FDACE1F677FB800CD2EC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F03FDAF51F67800D00CD2EC2 /* Build configuration list for PBXNativeTarget "streamingexUI" */ = {
 			isa = XCConfigurationList;
@@ -578,6 +772,7 @@
 				F03FDAF71F67800D00CD2EC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F03FDAF81F67800D00CD2EC2 /* Build configuration list for PBXNativeTarget "streamingex" */ = {
 			isa = XCConfigurationList;
@@ -586,6 +781,7 @@
 				F03FDAFA1F67800D00CD2EC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
